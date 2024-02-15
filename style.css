@@ -1,0 +1,55 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: "Press Start 2P", system-ui;
+    margin: 20px;
+}
+
+button{
+    padding: 5px 10px;
+}
+
+.between{
+    font-size: 11px;
+}
+
+.heading{
+    text-align: center;
+}
+
+.container-fluid{
+    background-color: rgba(255, 255, 255, 0.823);
+    height: 2px;
+    width: 97%;
+    position: absolute;
+    top: 216px;
+}
+
+.question{
+    width: 90px;
+    height: 65px;
+    background-color: rgba(255, 255, 255, 0.823);
+    color: black;
+    text-align: center;
+    padding: 10px;
+    font-size: 29px;
+    position: relative;
+    top: -10px;
+}
+
+.input-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.guess{
+    width: 150px;
+    height: 70px;
+    border: 2px solid white;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 23px;
+}
